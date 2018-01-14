@@ -1,0 +1,494 @@
+﻿*{
+	font-family: Microsoft YaHei;
+}
+div{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-size: 16px;
+}
+li{
+	list-style: none;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+a{
+	text-decoration: none;
+}
+.mobile-show{
+	display: none;
+}
+.header{
+	font-family: Microsoft YaHei;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid rgb(216,250,233);
+	padding: 0 5px 0 20px ;
+}
+.header-left{
+	width: 20%;
+	/*height: 100%;*/
+	color: rgb(124,218,177);
+	float: left;
+}
+.header-left div{
+	cursor: pointer;
+	/*width: 150px;*/
+	text-align: center;
+	font-size: 0.8em;
+	margin: auto;
+}
+.header-left div span{
+	font-weight: bold;
+	color: rgb(103,209,163);
+}
+.header i{
+	display: none;
+}
+.header-right{
+	width: 52%;
+	/*height: 100%;*/
+	float: right;
+	font-size: 0.7em;
+}
+.header-rightl{
+	color: rgb(161,161,161);
+	float: left;
+	font-size: 1em; 
+	margin-right: 2%;
+	cursor: pointer;
+}
+.header-rightl a{
+	color: rgb(161,161,161);
+}
+.header-choose{
+	font-weight: bold;
+	color: rgb(153,153,153);
+}
+.header-rightr{
+	color: rgb(141,221,116);
+	cursor: pointer;
+	text-align: center;
+	margin: auto;
+	/*user-select: none;*/
+}
+.header-menu{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+.body-bigimg{
+	height: 300px;
+	width: 100%;
+	background-color: skyblue;
+}
+.body-book{
+	text-align: center;
+}
+.book-bigword, .therapist-bigword{
+	margin-top: 60px;
+	color: rgb(100,210,165);
+	font-size: 2em;
+}
+.book-smallword{
+	font-size: 1.2em;
+	color: #666;
+	margin-bottom: 60px;
+}
+.book-date, .book-time{
+	height: 40px;
+	width: 300px;
+	margin: auto;
+	border: 1px solid rgb(206,206,206);
+	font-size: 1.2em;
+	padding-left: 8px;
+	color: rgb(206,206,206);
+}
+.book-date{
+	margin-bottom: 10px;
+}
+.book-button, .therapist-button, .contact-button, .styles-button, .pricing-button{
+	height: 40px;
+	width: 200px;
+	background-color: rgb(100,210,163);
+	color: white;
+	line-height: 40px;
+	margin: 80px auto;
+	text-align: center;
+	cursor: pointer;
+}
+.body-someicon{
+	width: 100%;
+	height: 120px;
+	background-color: rgb(216,250,233);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.someicon-cnt{
+	width: 33.3%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.someicon-icon{
+	height: 56px;
+	width: 48px;
+	margin-right: 8px;
+}
+.someicon-word{
+	width: 200px;
+	color: rgb(102,102,102);
+	font-size: 0.8em;
+}
+.body-therapist{
+	text-align: center;
+}
+.therapist-imgs{
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	margin-top: 60px;
+}
+.therapist-img{
+	width: 100px;
+	height: 100px;
+	/*border: 1px solid rgb(198,249,220);*/
+	border-radius: 50px;
+	overflow: hidden;
+}
+.body-styles{
+	background-color: rgb(242,253,274);
+}
+.styles-mobile{
+	display: none;
+}
+.styles-main{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	padding-top: 112px;
+}
+.styles-title{
+	text-align: center;
+}
+.styles-title:before{
+	content: "CHOOSE YOUR MASSAGE TYPE";
+	height: 32px;
+	color: #64D2A3;
+	font-weight: normal;
+	font-size: 1em;
+	font-family: "微软雅黑";
+}
+.styles-typedec{
+	width: 80%;
+	margin-top: 32px;
+	margin-bottom: 96px;
+	margin: auto;
+}
+.styles-typedec-submain{
+	width: 50%;
+	height: 120px;
+	margin-top: 32px;
+}
+.styles-typedec-submain:nth-child(odd){
+	float: left;
+}
+.styles-typedec-submain:nth-child(even){
+	float: right;
+}
+.submain-title{
+	margin: 0;
+	color: #64D2A3;
+	font-size: 0.95em;
+}
+.submain-sweimg{
+	height: 120px;
+	width: 70px;
+	background: url("../img/swedish.png");
+	background-size: 55px 55px;
+	background-repeat: no-repeat;
+	background-position: 0 20%;
+	float: left;
+}
+.submain-deepimg{
+	height: 120px;
+	width: 80px;
+	background: url("../img/deep_tissue.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: 90% 20%;
+	float: left;
+}
+.submain-sportsimg{
+	height: 120px;
+	width: 70px;
+	background: url("../img/sports.png");
+	background-size: 55px 55px;
+	background-repeat: no-repeat;
+	background-position: 0 20%;
+	float: left;
+}
+.submain-preimg{
+	height: 120px;
+	width: 80px;
+	background: url("../img/pre_natal.png");
+	background-size: 55px 55px;
+	background-repeat: no-repeat;
+	background-position: 90% 20%;
+	float: left;
+}
+.submain-coupleimg{
+	height: 120px;
+	width: 70px;
+	background: url("../img/couple.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: 0 20%;
+	float: left;
+}
+.submain-thaiimg{
+	height: 120px;
+	width: 80px;
+	background: url("../img/thai_massage.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: 70% 20%;
+	float: left;
+}
+.submain-relaximg{
+	height: 120px;
+	width: 70px;
+	background: url("../img/relaxing.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: 0 20%;
+	float: left;
+}
+.submain-atimg{
+	height: 120px;
+	width: 80px;
+	background: url("../img/at_work.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: 70% 20%;
+	float: left;
+}
+.submain-detail{
+	margin: 0;
+	margin-top: 8px;
+	font-size: 0.8em;
+	color: #666;
+}
+.pricing-main{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.pricing-title{
+	height: 2em;
+	margin-top: 2em;
+	color: #64D2A3;
+	font-weight: normal;
+	font-size: 2em;
+	font-family: "微软雅黑";
+}
+.pricing-therapist{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 12em;
+	margin-bottom: 1em;
+}
+.pricing-therapist-title{
+	font-size: 1.5em;
+	color: #A49884;
+}
+.pricing-therapist-pr{
+	display: flex;
+	width: 17em;
+	height: 4em;
+	border-bottom: solid 1px #D8FAE9;
+	justify-content: space-between;
+	align-items: center;
+}
+.pr-time{
+	display: flex;
+}
+.pr-time-num{
+	color: #64D2A3;
+	font-weight: bold;
+	font-size: 1.3em;
+	margin-right: 0.2em;
+}
+.pr-time-unit{
+	font-size: 1.3em;
+	color: #A69A85;
+}
+.pr-money{
+	font-size: 1.3em;
+	color: #A69A85;
+}
+
+.body-FAQ{
+	background-color: rgb(242,253,247);
+	padding: 1px;
+	padding-bottom: 60px;
+}
+.FAQ-main{
+	width: 54%;
+	/*height: 974px;*/
+	margin:auto;
+	flex-wrap: wrap;
+}
+.show-mobile{
+	display: none;
+}
+.FAQ-title-fir{
+	text-align: center;
+	margin: auto;
+	margin-top: 80px;
+	margin-bottom: 60px;
+	font-size: 2.2em;
+	/*margin:auto;*/
+	width: 370px;
+	color: rgb(124,218,177);
+	flex-wrap: wrap;
+}
+.FAQ-title-sec{
+	text-align: center;
+	margin-bottom: 75px;
+	font-size: 35px;
+	color: rgb(124,218,177);
+}
+.FAQ-ctn{
+	width: 100%;
+	/*margin:auto;*/
+}
+.FAQ-circle{
+	display: none;
+}
+.FAQ-ctn-que{
+	/*height: 55px;*/
+	font-size: 1.1em;
+	color: rgb(124,218,177);	
+	/*line-height: 55px;*/
+	font-weight: 600;
+}
+.change{
+	line-height: 25px;
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+.FAQ-ctn-ans{
+	width: 100%;
+	font-size: 0.94em;
+	color: gray;
+	word-wrap:break-word;
+	word-break:normal;
+	text-align:justify;
+}
+.contact-main{
+	width: 80%;
+	margin:auto;
+}
+.contact-word-top{
+	text-align: center;
+	height:120px;
+	margin-top: 90px;
+	font-size: 2.2em;
+	color: rgb(124,218,177);
+	line-height: 120px;
+}
+.contact-word-mid{
+	text-align: center;
+	height: 25px;
+	font-size: 1.25em;
+	line-height: 25px;
+}
+.contact-word-btn{
+	height: 120px;
+	text-align: center;
+	/*font-weight: 600;*/
+	line-height: 120px;
+	font-size: 15px;
+	font-weight: 600;
+	/*font-family: STHeiti Light;*/
+}
+.contact-word-btn span{
+	/*font-family: STHeiti Light;*/
+	font-weight: normal;
+	letter-spacing:-1px;
+}
+.contact-form{
+	width: 60%;
+	height: 430px;
+	margin:auto;
+	display: flex;
+	justify-content: space-between;
+	flex-direction:column;
+	align-content: center;
+	align-self: center;
+	flex-wrap: wrap;	
+}
+.contact-form-sma{
+	width: 100%;
+	height: 40px;
+	border: 2px solid lightgray;
+	color: lightgray;
+	font-size: 8px;
+	text-indent: 10px;
+	line-height: 40px;
+	font-family: "微软雅黑";
+}
+.contact-form-big{
+	width: 100%;
+	height: 290px;
+	border: 2px solid lightgray;
+	color: lightgray;
+	font-size: 8px;
+	text-indent: 10px;
+	padding: 0;
+	padding-top: 10px;
+	resize: none;
+	font-family: "微软雅黑";
+}
+
+
+.footer{
+	width: 100%;
+	height: 200px;
+	background-color: rgb(40,171,139);
+	text-align: center;
+	color: white;
+	padding-top: 60px;
+}
+.footer-word{
+	margin-bottom: 30px;
+	opacity: 0.9;
+}
+.footer-word span{
+	font-weight: bold;
+}
+.footer-smallword{
+	font-size: 8px;
+	font-weight: bold;
+	opacity: 0.9;
+}

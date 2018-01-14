@@ -1,0 +1,222 @@
+﻿*{
+	font-family: Microsoft YaHei;
+}
+div{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-size: 16px;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid rgb(216,250,233);
+	padding: 0 5px 0 20px ;
+}
+.header-menu{
+	display: none;
+}
+.header-left{
+	width: 20%;
+	/*height: 100%;*/
+	color: rgb(124,218,177);
+	float: left;
+}
+.header-left div{
+	cursor: pointer;
+	/*width: 150px;*/
+	text-align: center;
+	font-size: 0.8em;
+	margin: auto;
+}
+.header-left div span{
+	font-weight: bold;
+	color: rgb(103,209,163);
+}
+.header i{
+	display: none;
+}
+.header-right{
+	width: 59%;
+	/*height: 100%;*/
+	float: right;
+	font-size: 0.7em;
+}
+.header-rightl{
+	color: rgb(161,161,161);
+	float: left;
+	/*font-size: 1em;*/ 
+	margin-right: 2%;
+	cursor: pointer;
+}
+.header-rightl a{
+	color: rgb(161,161,161);
+}
+.header-choose{
+	font-weight: bold;
+	color: rgb(153,153,153);
+}
+.header-rightr{
+	color: rgb(141,221,116);
+	cursor: pointer;
+	text-align: center;
+	margin: auto;
+	/*user-select: none;*/
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	padding-top: 112px;
+}
+.main-title:before{
+	content: "CHOOSE YOUR MASSAGE TYPE";
+	height: 32px;
+	color: #64D2A3;
+	font-weight: normal;
+	font-size: 1em;
+	font-family: "微软雅黑";
+}
+.main-typedec{
+	width: 80%;
+	margin-top: 32px;
+	margin-bottom: 96px;
+}
+.main-typedec-submain{
+	width: 50%;
+	height: 120px;
+	margin-top: 32px;
+}
+.main-typedec-submain:nth-child(odd){
+	float: left;
+}
+.main-typedec-submain:nth-child(even){
+	float: right;
+}
+.submain-title{
+	margin: 0;
+	color: #64D2A3;
+	font-size: 0.95em;
+}
+.submain-sweimg{
+	height: 120px;
+	width: 70px;
+	background: url("../img/swedish.png");
+	background-size: 55px 55px;
+	background-repeat: no-repeat;
+	background-position: 0 20%;
+	float: left;
+}
+.submain-deepimg{
+	height: 120px;
+	width: 80px;
+	background: url("../img/deep_tissue.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: 90% 20%;
+	float: left;
+}
+.submain-sportsimg{
+	height: 120px;
+	width: 70px;
+	background: url("../img/sports.png");
+	background-size: 55px 55px;
+	background-repeat: no-repeat;
+	background-position: 0 20%;
+	float: left;
+}
+.submain-preimg{
+	height: 120px;
+	width: 80px;
+	background: url("../img/pre_natal.png");
+	background-size: 55px 55px;
+	background-repeat: no-repeat;
+	background-position: 90% 20%;
+	float: left;
+}
+.submain-coupleimg{
+	height: 120px;
+	width: 70px;
+	background: url("../img/couple.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: 0 20%;
+	float: left;
+}
+.submain-thaiimg{
+	height: 120px;
+	width: 80px;
+	background: url("../img/thai_massage.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: 70% 20%;
+	float: left;
+}
+.submain-relaximg{
+	height: 120px;
+	width: 70px;
+	background: url("../img/relaxing.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: 0 20%;
+	float: left;
+}
+.submain-atimg{
+	height: 120px;
+	width: 80px;
+	background: url("../img/at_work.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: 70% 20%;
+	float: left;
+}
+.submain-detail{
+	margin: 0;
+	margin-top: 8px;
+	font-size: 0.8em;
+	color: #666;
+}
+.main-bookbutton{
+	width: 240px;
+	height: 48px;
+	background-color: #64D2A3;
+	color: #fff;
+	text-align: center;
+	line-height: 48px;
+	font-weight: bold;
+}
+.ft{
+	display: flex;
+	height: 200px;
+	margin-top: 112px;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	background-color: #28AB8B;
+}
+.ft-title{
+	color: #fff;
+	font-size: 0.75em;
+}
+.ft-title:after{
+	content: "massages";
+	color: #fff;
+	font-size: 0.75em;
+	font-weight: bold;
+}
+.ft-label{
+	color: #fff;
+	font-size: 0.75em;
+	font-weight: bold;
+}

@@ -1,0 +1,62 @@
+.header-right .header-rightl a:hover{
+	color:  rgb(124,218,177);
+}
+*{
+	font-family: "Microsoft YaHei";
+	margin: 0px;
+	padding: 0px;
+}
+div{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+input{
+	border: 1px solid #aaa;
+	text-indent: 13px;
+	color: #aaa;
+}
+textarea:hover,input:hover{
+	border-color: rgb(100,210,163);
+/*	-webkit-transition: all .2s linear;
+    transition: all .2s linear;	*/
+}
+textarea:focus,input:focus{
+	outline:none;
+    border: 1px solid rgb(100,210,163);
+}
+li{
+	list-style: none;
+}
+button{
+	border: 0px;
+}
+button:hover{
+	background: rgb(100,210,163);
+	-webkit-transition: all .2s linear;
+    transition: all .3s linear;	
+}
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.back{
+	margin-top: 30px;
+}
+.back:hover{
+	color: rgb(100,210,163);
+	-webkit-transition: all .2s linear;
+    transition: all .3s linear;	 
+}
+.fa:hover{
+	color: rgb(50,200,150);
+	-webkit-transition: all .2s linear;
+    transition: all .2s linear;	
+}
+.menu-items{
+	background-color: #fff;
+}

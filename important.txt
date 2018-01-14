@@ -1,0 +1,64 @@
+isfirstsignup = true;
+
+
+用户 邮箱 姓 名 密码 手机 验证码 
+
+按摩师 姓名 图片 个人介绍 检查
+
+订单 日期 开始时间 按摩师1 按摩师2 按摩时长 按摩类型 价格 街道 省份 邮政编码 停车指令
+pc       19%
+phone	 81%
+ipad	 35%
+phone h  41%
+
+var num=0,hour=5,minutes=0,amorpm="PM ";  //选择时间 默认pm
+
+var month = 6,week = 2,day = 1; //选择日期 默认6月1号
+
+var types = "Swedish Massage";
+var lengths = "60 minutes - $65";
+var session = "Single - 1 therapist";
+var workername1 = "Rose",workername1 = "null",workernum = 1,count = 0;
+actionkind":actionkind,
+firstname,lastname,phone,email,password 
+ 
+
+
+
+create table therapist (
+			tname varchar(20) ,
+			src varchar(100),
+			introduce varchar(6000),
+			isbusy varchar(1),
+			primary key(tname)
+			);
+
+insert into therapist values
+('Rose','img/Rose.png','Rose','1'),
+('Anne','img/Anne.png','Anne','1'),
+('Carol','img/Carol.png','Carol','1'),
+('Josie','img/Josie.png','Josie','1'),
+('Lara','img/Lara.png','Lara','1'),
+('Sarah','img/Sarah.png','Sarah','1'),
+('Molly','img/Molly.png','Molly','1'),
+('Kylie','img/Kylie.png','Kylie','1');
+
+create table orderform (
+			email varchar(50),
+			tname1 varchar(20),
+			tname2 varchar(20),
+			price varchar(10),
+			date varchar(20),
+			startime varchar(20),
+			length varchar(10),
+			type varchar(10),
+			primary key(email,tname1,tname2,riqi,startime)
+		    );
+insert into therapist values('Rose','../img/massage/Rose.png','1','Rose');
+
+
+
+alter table orderform drop column introduce;
+alter table user add column issignin varchar(10);
+alter table orderform change length length varchar(30) null;395
+update therapist set srcs = "../img/massage/Anne.png" where tname = "Anne";

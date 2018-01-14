@@ -1,0 +1,498 @@
+*{
+	font-family: Microsoft YaHei;
+}
+div{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-size: 16px;
+}
+li{
+	list-style: none;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+a{
+	text-decoration: none; 
+}
+.pc-show{
+	display: none;
+}
+.header{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+/*	border-bottom: 1px solid rgb(216,250,233);*/
+	font-family: Microsoft YaHei;
+	padding: 0 20px;
+}
+.header-left{
+	width: 100%;
+	/*height: 100%;*/
+	color: rgb(124,218,177);
+	text-align: center;
+	font-size: 0.9em;
+}
+.header-left div{
+	cursor: pointer;
+	/*width: 150px;*/
+	text-align: center;
+}
+.header-left div span{
+	font-weight: bold;
+	color: rgb(103,209,163);
+}
+.header i{
+	position: absolute;
+	top: 18px;
+	right: 20px;
+	height: 24px;
+	width: 24px;
+	background: url("../img/c.png") no-repeat;
+}
+.header-right{
+	display: none;
+	width: 42%;
+	/*height: 100%;*/
+	float: right;
+}
+.header-rightl{
+	color: rgb(161,161,161);
+	float: left;
+	margin-right: 2%;
+	cursor: pointer;
+}
+.header-choose{
+	font-weight: bold;
+	color: rgb(153,153,153);
+}
+.header-rightr{
+	color: rgb(141,221,116);
+	float: right;
+	margin-right: 3%;
+	cursor: pointer;
+	text-align: center;
+	/*user-select: none;*/
+}
+.bg{
+	background-color: black;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	opacity: 0.4;
+	display: none;
+}
+.header-menu{
+	width: 80%;
+	height: 99%;
+	background-color: white;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+	/*padding-left: 20px;*/
+	border: 1px solid rgb(215,215,215);
+	display: none;
+
+}
+.menu-title{
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid lightgray;
+
+}
+.menu-titlel{
+	color: rgb(204,204,204);
+	font-size: 1.5em;
+	font-family: Calibri;
+	/*text-indent: -18px;*/
+}
+.menu-titlem{
+	font-size: 0.9em;
+	color:rgb(124,218,177);
+}
+.word-ch{
+    color: rgb(100,210,165);
+	font-weight: 600;
+}
+.roll{
+	width: 22px;    
+	height: 22px;
+	/*margin:auto;*/
+	background-image: url(../img/roll.png);  
+	background-size: 20px 20px;
+	border-radius: 50%; 
+	background-repeat: no-repeat;
+	position: relative;
+	top:20px;
+}
+.menu-item{
+	color: rgb(152,152,152);
+	border-bottom: 1px solid lightgray;
+	line-height: 41px;
+	text-indent: 17px;
+}
+.menu-item a{
+	color: rgb(152,152,152);
+}
+.menu-choose{
+	font-weight: bold;
+}
+.body-bigimg{
+	height: 200px;
+	width: 100%;
+	background-color: skyblue;
+}
+@media(max-width: 380px){
+	.body-bigimg{
+		height: 160px;
+	}
+}
+.body-book{
+	text-align: center;
+}
+.book-bigword, .therapist-bigword{
+	color: rgb(100,210,165);
+	font-size: 1.4em;
+	margin: auto;
+	margin-top: 60px;
+}
+.book-smallword{
+	font-size: 0.8em;
+	color: #666;
+	margin-bottom: 60px;
+}
+.book-date, .book-time{
+	height: 40px;
+	width: 260px;
+	margin: auto;
+	border: 1px solid rgb(206,206,206);
+	font-size: 1.2em;
+	padding-left: 8px;
+	color: rgb(206,206,206);
+}
+.book-date{
+	margin-bottom: 10px;
+}
+.book-button, .therapist-button, .contact-button, .pricing-button{
+	height: 60px;
+	width: 220px;
+	background-color: rgb(100,210,163);
+	color: white;
+	line-height: 60px;
+	margin: 60px auto;
+	text-align: center;
+	cursor: pointer;
+}
+.body-someicon{
+	width: 100%;
+	height: 240px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.someicon-cnt{
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.someicon-icon{
+	height: 56px;
+	width: 48px;
+	margin-right: 8px;
+}
+.someicon-word{
+	width: 200px;
+	color: rgb(102,102,102);
+	font-size: 0.8em;
+}
+.body-therapist{
+	text-align: center;
+	background-color: rgb(241,252,246);
+	padding: 1px;
+	margin-top: 60px;
+}
+.therapist-bigword{
+	width: 80%;
+	margin-top: 40px;
+}
+.therapist-imgs{
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: auto;
+	margin-top: 60px;
+}
+.therapist-img{
+	width: 120px;
+	height: 120px;
+	/*border: 1px solid rgb(198,249,220);*/
+	border-radius: 50%;
+	overflow: hidden;
+	margin-bottom: 20px;
+	/*margin: 0 20px 30px 20px;*/
+}
+.styles-mobile{
+	text-align: center;
+}
+.mobile-title{
+	width: 50%;
+	color: rgb(141,211,188);
+	margin: auto;
+	font-size: 1.3em;
+	margin-top: 40px;
+}
+.mobile-imgs{
+	width: 320px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+	margin-top: 40px;
+}
+.mobile-img{
+	width: 150px;
+	height: 150px;
+	background-color: skyblue;
+	margin-bottom: 10px;
+}
+.bglightgreen{
+	background-color: rgb(216,250,233);
+	color: rgb(38,171,138);
+}
+.bggreen{
+	background-color: rgb(100,210,163);
+	color: rgb(215,250,232);
+}
+.styles-main{
+	display: none;
+}
+.pricing-main{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+}
+.pricing-title{
+	height: 2em;
+	color: #64D2A3;
+	font-weight: normal;
+	font-size: 1.5em;
+	font-family: "微软雅黑";
+	margin: 0;
+	margin-bottom: 1em;
+}
+.pricing-therapist{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+.pricing-therapist-title{
+	font-size: 1.1em;
+	font-weight: normal;
+	color: #A49884;
+	margin-top: 0;
+}
+.pricing-therapist-pr{
+	display: flex;
+	width: 100%;
+	height: 2.5em;
+	margin-bottom: 1em;
+	background-color: #D8FAE9;
+	justify-content: space-between;
+	align-items: center;
+}
+.pr-time{
+	display: flex;
+	margin-left: 3em;
+}
+.pr-time-num{
+	color: #999;
+	font-weight: bold;
+	font-size: 1.1em;
+	margin-right: 0.2em;
+}
+.pr-time-unit{
+	font-size: 1.1em;
+	color: #999;
+	font-weight: bold;
+}
+.pr-money{
+	margin-right: 3em;
+	font-size: 1.1em;
+	color: #A69A85;
+}
+.body-FAQ{
+	width: 100%;
+	margin-bottom: 40px;
+}
+.FAQ-main{
+	width: 90%;
+	/*height: 974px;*/
+	margin:auto;
+	margin-bottom: 10px;
+}
+.show-pc{
+	display: none;
+}
+.FAQ-title-fir{
+	text-align: center;
+	color: rgb(124,218,177);
+	font-size: 1.5em;
+}
+.FAQ-title-sec{
+	text-align: center;
+	margin-bottom: 75px;
+	font-size: 1.5em;
+	/*color: rgb(124,218,177);*/
+	color: gray;
+}
+.FAQ-ctn{
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	/*margin:auto;*/
+}
+.FAQ-circle{
+	width: 18px;
+	height: 18px;
+	border: 2px solid rgb(101,210,164);
+	border-radius: 50%;
+	margin-top: 5px;
+	margin-right: 5px;
+	/*rgb(101,210,164);*/
+}
+.FAQ-smallcircle{
+	width: 6px;
+	height: 6px;
+	background-color: rgb(101,210,164);
+	border-radius: 50%;
+	margin: 4px auto;
+}
+.FAQ-ctn-que{
+	width: 90%;
+	font-size: 1.1em;
+	color: rgb(153,153,153);	
+	font-weight: bold;
+}
+.change{
+	line-height: 30px;
+}
+
+.FAQ-ctn-ans{
+	/*width: 100%;
+	font-size: 15px;
+	word-wrap:break-word;
+	word-break:normal;
+	text-align:justify;*/
+	display: none;
+}
+
+.body-contact{
+	background-color: rgb(242,253,247);
+	padding: 1px;
+}
+.contact-main{
+	width: 80%;
+	margin:auto;
+	flex-wrap: wrap;
+	padding-top: 40px;
+}
+.contact-word-top{
+	text-align: center;
+	height:50px;
+	/*margin-top: 90px;*/
+	font-size: 2em;
+	color: rgb(124,218,177);
+	line-height: 50px;
+}
+.contact-word-mid{
+	text-align: center;
+	/*height: 25px;*/
+	font-size: 1em;
+}
+.contact-word-btn{
+	height: 70px;
+	text-align: center;
+	/*font-weight: 600;*/
+	line-height: 70px;
+	font-size: 1em;
+	font-weight: 600;
+	/*font-family: STHeiti Light;*/
+}
+.contact-word-btn span{
+	/*font-family: STHeiti Light;*/
+	font-weight: normal;
+	letter-spacing:-1px;
+}
+.contact-form{
+	width: 88%;
+	height: 380px;
+	margin:auto;
+	display: flex;
+	justify-content: space-between;
+	flex-direction:column;
+	align-content: center;
+	align-self: center;
+	flex-wrap: wrap;	
+}
+.contact-form-sma{
+	width: 100%;
+	height: 40px;
+	border: 1px solid lightgray;
+	color: lightgray;
+	font-size: 8px;
+	text-indent: 10px;
+	line-height: 40px;
+	font-family: "微软雅黑";
+}
+.contact-form-big{
+	width: 100%;
+	height: 220px;
+	border: 1px solid lightgray;
+	color: lightgray;
+	font-size: 8px;
+	padding: 0;
+	text-indent: 10px;
+	line-height: 40px;
+	resize: none;
+	font-family: "微软雅黑";
+}
+
+.footer{
+	width: 100%;
+	height: 180px;
+	background-color: rgb(40,171,139);
+	text-align: center;
+	color: white;
+	padding-top: 40px;
+}
+.footer-word{
+	margin-bottom: 30px;
+	opacity: 0.9;
+}
+.footer-word span{
+	font-weight: bold;
+}
+.footer-smallword{
+	font-size: 0.5px;
+	font-weight: bold;
+	opacity: 0.9;
+}

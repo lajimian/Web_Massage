@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5,
+		maximum-scale=2.0, user-scalable=yes" />
+		
+		<link href="../Font-Awesome\css\font-awesome.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../css/Theraplst-pc.css" media="screen and (min-width: 1024px)">
+		<link rel="stylesheet" type="text/css" href="../css/Theraplst-ipad.css" media="screen and (min-width: 750px) and (max-width: 1023px)">
+		<link rel="stylesheet" type="text/css" href="../css/Theraplst-mobileH.css" media="screen and (min-width: 520px) and (max-width: 749px)">
+		<link rel="stylesheet" type="text/css" href="../css/Theraplst-mobile.css" media="screen  and (max-width: 519px)">
+		<link rel="stylesheet" type="text/css" href="../css/text.css">
+		<link rel="stylesheet" type="text/css" href="../css/tongyong.css">
+		<title>项目 </title>
+		<script type="text/javascript" src="../lib/jquery/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="../js/share.js"></script>
+		<script type="text/javascript" src="../js/index.js"></script>	
+		<script type="text/javascript" src="../js/tongyong.js"></script>
+	</head> 
+	<body>
+		<div class="bg"></div>
+		<div class="header">
+			<div class="header-left">
+				<div>
+					Mobile
+					<span>massages</span>
+				</div>
+			</div>
+			<i class="showitem"></i>
+			<div class="header-right">
+				<li class="header-rightl">
+					<a href="Home.html">Home</a>
+				</li>
+				<li class="header-rightl">
+					<a href="Booking.html" class="header-choose">Booking</a>
+				</li>
+				<li class="header-rightl">
+					<a href="Therapist.html">Therapist</a>
+				</li>
+				<li class="header-rightl">
+					<a href="Styles.html">Styles</a>
+				</li>
+				<li class="header-rightl">
+					<a href="Pricing.html">Pricing</a>
+				</li>
+				<li class="header-rightl">
+					<a href="FAQ.html">FAQ</a>
+				</li>
+				<li class="header-rightl">
+					<a href="Contact.html">Contact Us</a>
+				</li>
+				<li class="header-rightr" onclick=" window.open( 'signin.html','_self' ) ">Sign in	
+				</li>
+			</div>
+			<div class="header-menu">
+				<div class="menu-title">
+					<div class="menu-titlel">MENU</div>
+					<div class="menu-titlem">
+						<div>
+							Mobile
+							<span class="word-ch">massages</span>
+						</div>
+					</div>
+					<!-- <div class="menu-titler"></div> -->
+					<div class="roll"></div>
+				</div>
+				<div class="menu-items">
+					<div class="menu-item">
+						<a href="Home.html">Home</a>
+					</div>
+					<div class="menu-item">
+						<a href="Booking.html"  class="menu-choose">Booking</a>
+					</div>
+					<div class="menu-item">
+						<a href="Therapist.html">Therapist</a>
+					</div>
+					<div class="menu-item">
+						<a href="Styles.html">Styles</a>
+					</div>
+					<div class="menu-item">
+						<a href="Pricing.html">Massages description</a>
+					</div>
+					<div class="menu-item">
+						<a href="FAQ.html">FAQ</a>
+					</div>
+					<div class="menu-item">
+						<a href="Contact.html">Contact us</a>
+					</div>
+					<div class="menu-item">
+						<a href="signin.html">Login</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="site-body">
+			<div class="book">
+				<div class="book-order">
+					<li class="first">1</li>
+					<li class="second">2</li>
+					<li class="third">3</li>
+					<li class="four">4</li>
+				</div>
+				<div class="first-book">
+					<div class="first-title">Book my massage</div>
+					<span class="center email">Choose a date</span>
+					<div class="first-choosedata-contain">
+						<input defaultVal="Today" value="Today" id="choosedate" class="first-choosedata" type="text" name="">
+						<div class="choosedate">
+							<div class="choose-month">
+								<div class="lleft"><i class="fa fa-angle-left"></i></div>
+								<div class="month">6</div>
+								<div class="rright"><i class="fa fa-angle-right"></i></div>
+							</div>
+							<div class="choose-week">
+								<li class="weeks">MON</li>
+								<li class="weeks">TUE</li>
+								<li class="weeks">WED</li>
+								<li class="weeks">THU</li>
+								<li class="weeks">FRI</li>
+								<li class="weeks">SAT</li>
+								<li class="weeks">SUN</li>
+							</div>
+							<!-- ////////////////////////6 -->
+							<div class="whichmonth">
+								<div class="choose-day">
+									<li class="week"></li>
+									<li class="week"></li>
+									<li class="week"></li>
+									<li class="week">1</li>
+									<li class="week">2</li>
+									<li class="week">3</li>
+									<li class="week">4</li>
+								</div>
+								<div class="choose-day">
+									<li class="week">5</li>
+									<li class="week">6</li>
+									<li class="week">7</li>
+									<li class="week">8</li>
+									<li class="week">9</li>
+									<li class="week">10</li>
+									<li class="week">11</li>
+								</div>
+								<div class="choose-day">
+									<li class="week">12</li>
+									<li class="week">13</li>
+									<li class="week">14</li>
+									<li class="week">15</li>
+									<li class="week">16</li>
+									<li class="week">17</li>
+									<li class="week">18</li>
+									
+								</div>
+								<div class="choose-day">
+									<li class="week">19</li>
+									<li class="week">20</li>
+									<li class="week">21</li>
+									<li class="week">22</li>
+									<li class="week">23</li>
+									<li class="week">24</li>
+									<li class="week">25</li>
+									
+								</div>
+								<div class="choose-day">
+									<li class="week">26</li>
+									<li class="week">27</li>
+									<li class="week">28</li>
+									<li class="week">29</li>
+									<li class="week">30</li>
+									<li class="week">31</li>
+									<li class="week"></li>
+								</div>
+							</div>
+							<!-- ////////////////////////7 -->
+							<div class="whichmonth">
+								<div class="choose-day">
+									<li class="week"></li>
+									<li class="week"></li>
+									<li class="week"></li>
+									<li class="week"></li>
+									<li class="week"></li>
+									<li class="week">1</li>
+									<li class="week">2</li>
+								</div>
+								<div class="choose-day">
+								<li class="week">3</li>
+									<li class="week">4</li>
+									<li class="week">5</li>
+									<li class="week">6</li>
+									<li class="week">7</li>
+									<li class="week">8</li>
+									<li class="week">9</li>
+								</div>
+								<div class="choose-day">
+									<li class="week">10</li>
+									<li class="week">11</li>
+									<li class="week">12</li>
+									<li class="week">13</li>
+									<li class="week">14</li>
+									<li class="week">15</li>
+									<li class="week">16</li>
+								</div>
+								<div class="choose-day">
+									<li class="week">17</li>
+									<li class="week">18</li>
+									<li class="week">19</li>
+									<li class="week">20</li>
+									<li class="week">21</li>
+									<li class="week">22</li>
+									<li class="week">23</li>
+									
+								</div>
+								<div class="choose-day">
+									<li class="week">24</li>
+									<li class="week">25</li>
+									<li class="week">26</li>
+									<li class="week">27</li>
+									<li class="week">28</li>
+									<li class="week">29</li>
+									<li class="week">30</li>
+								</div>
+								<div class="choose-day">
+									<li class="week">31</li>
+									<li class="week"></li>
+									<li class="week"></li>
+									<li class="week"></li>
+									<li class="week"></li>
+									<li class="week"></li>
+									<li class="week"></li>
+								</div>
+							</div>
+							<!-- ////////////////////////8 -->
+							<div class="whichmonth">
+								<div class="choose-day">
+									<li class="week"></li>
+									<li class="week">1</li>
+									<li class="week">2</li>
+									<li class="week">3</li>
+									<li class="week">4</li>
+									<li class="week">5</li>
+									<li class="week">6</li>
+	
+								</div>
+								<div class="choose-day">
+									<li class="week">7</li>
+									<li class="week">8</li>
+									<li class="week">9</li>
+									<li class="week">10</li>
+									<li class="week">11</li>
+									<li class="week">12</li>
+									<li class="week">13</li>
+									
+								</div>
+								<div class="choose-day">
+									<li class="week">14</li>
+									<li class="week">15</li>
+									<li class="week">16</li>
+									<li class="week">17</li>
+									<li class="week">18</li>
+									<li class="week">19</li>
+									<li class="week">20</li>
+									
+								</div>
+								<div class="choose-day">
+									<li class="week">21</li>
+									<li class="week">22</li>
+									<li class="week">23</li>
+									<li class="week">24</li>
+									<li class="week">25</li>
+									<li class="week">26</li>
+									<li class="week">27</li>
+									
+								</div>
+								<div class="choose-day">
+									<li class="week">28</li>
+									<li class="week">29</li>
+									<li class="week">30</li>
+									<li class="week"></li>
+									<li class="week"></li>
+									<li class="week"></li>
+									<li class="week"></li>
+								</div>
+							</div>
+							<!-- ////////////////////////9 -->
+							<div class="whichmonth">
+								<div class="choose-day">
+									<li class="week"></li>
+									<li class="week"></li>
+									<li class="week"></li>
+									<li class="week"></li>
+									<li class="week">1</li>
+									<li class="week">2</li>
+									<li class="week">3</li>
+								</div>
+								<div class="choose-day">
+									<li class="week">4</li>
+									<li class="week">5</li>
+									<li class="week">6</li>
+									<li class="week">7</li>
+									<li class="week">8</li>
+									<li class="week">9</li>
+									<li class="week">10</li>
+								</div>
+								<div class="choose-day">
+								<li class="week">11</li>
+									<li class="week">12</li>
+									<li class="week">13</li>
+									<li class="week">14</li>
+									<li class="week">15</li>
+									<li class="week">16</li>
+									<li class="week">17</li>
+								</div>
+								<div class="choose-day">
+									<li class="week">18</li>
+									<li class="week">19</li>
+									<li class="week">20</li>
+									<li class="week">21</li>
+									<li class="week">22</li>
+									<li class="week">23</li>
+									<li class="week">24</li>
+								</div>
+								<div class="choose-day">
+									<li class="week">25</li>
+									<li class="week">26</li>
+									<li class="week">27</li>
+									<li class="week">28</li>
+									<li class="week">29</li>
+									<li class="week">30</li>
+									<li class="week"></li>
+								</div>
+							</div>
+							<!-- ////////////////////////10 -->
+							<div class="whichmonth">
+								<div class="choose-day">
+									<li class="week">2</li>
+									<li class="week">3</li>
+									<li class="week">4</li>
+									<li class="week">5</li>
+									<li class="week">6</li>
+									<li class="week">7</li>
+									<li class="week">8</li>
+								</div>
+								<div class="choose-day">
+									<li class="week">9</li>
+									<li class="week">10</li>
+									<li class="week">11</li>
+									<li class="week">12</li>
+									<li class="week">13</li>
+									<li class="week">14</li>
+									<li class="week">15</li>
+								</div>
+								<div class="choose-day">
+									<li class="week">16</li>
+									<li class="week">17</li>
+									<li class="week">18</li>
+									<li class="week">19</li>
+									<li class="week">20</li>
+									<li class="week">21</li>
+									<li class="week">22</li>
+								</div>
+								<div class="choose-day">
+									<li class="week">23</li>
+									<li class="week">24</li>
+									<li class="week">25</li>
+									<li class="week">26</li>
+									<li class="week">27</li>
+									<li class="week">28</li>
+									<li class="week">29</li>
+								</div>
+								<div class="choose-day">
+									<li class="week">30</li>
+									<li class="week">31</li>
+									<li class="week"></li>
+									<li class="week"></li>
+									<li class="week"></li>
+									<li class="week"></li>
+									<li class="week"></li>
+								</div>
+							</div>
+							<!-- ////////////////////////11-->
+							<div class="whichmonth">
+								<div class="choose-day">
+									<li class="week"></li>
+									<li class="week"></li>
+									<li class="week">1</li>
+									<li class="week">2</li>
+									<li class="week">3</li>
+									<li class="week">4</li>
+									<li class="week">5</li>
+								</div>
+								<div class="choose-day">
+									<li class="week">6</li>
+									<li class="week">7</li>
+									<li class="week">8</li>
+									<li class="week">9</li>
+									<li class="week">10</li>
+									<li class="week">11</li>
+									<li class="week">12</li>
+								</div>
+								<div class="choose-day">
+									<li class="week">13</li>
+									<li class="week">14</li>
+									<li class="week">15</li>
+									<li class="week">16</li>
+									<li class="week">17</li>
+									<li class="week">18</li>
+									<li class="week">19</li>
+								</div>
+								<div class="choose-day">
+									<li class="week">20</li>
+									<li class="week">21</li>
+									<li class="week">22</li>
+									<li class="week">23</li>
+									<li class="week">24</li>
+									<li class="week">25</li>
+									<li class="week">26</li>
+								</div>
+								<div class="choose-day">
+									<li class="week">27</li>
+									<li class="week">28</li>
+									<li class="week">29</li>
+									<li class="week">30</li>
+									<li class="week"></li>
+									<li class="week"></li>
+									<li class="week"></li>
+								</div>
+							</div>
+							<!-- ////////////////////////12 -->
+							<div class="whichmonth">
+								<div class="choose-day">
+									<li class="week"></li>
+									<li class="week"></li>
+									<li class="week"></li>
+									<li class="week"></li>
+									<li class="week">1</li>
+									<li class="week">2</li>
+									<li class="week">3</li>
+								</div>
+								<div class="choose-day">
+									<li class="week">4</li>
+									<li class="week">5</li>
+									<li class="week">6</li>
+									<li class="week">7</li>
+									<li class="week">8</li>
+									<li class="week">9</li>
+									<li class="week">10</li>
+								</div>
+								<div class="choose-day">
+									<li class="week">11</li>
+									<li class="week">12</li>
+									<li class="week">13</li>
+									<li class="week">14</li>
+									<li class="week">15</li>
+									<li class="week">16</li>
+									<li class="week">17</li>
+								</div>
+								<div class="choose-day">
+									<li class="week">18</li>
+									<li class="week">19</li>
+									<li class="week">20</li>
+									<li class="week">21</li>
+									<li class="week">22</li>
+									<li class="week">23</li>
+									<li class="week">24</li>
+								</div>
+								<div class="choose-day">
+									<li class="week">25</li>
+									<li class="week">26</li>
+									<li class="week">27</li>
+									<li class="week">28</li>
+									<li class="week">29</li>
+									<li class="week">30</li>
+									<li class="week">31</li>
+								</div>
+							</div>
+						</div>
+					</div>
+					<span class="center email">Time</span>
+					<div class="first-time-contain">
+						<input defaultVal="5:00 PM" value="5:00 PM" id="choosetime" class="first-choosetime" type="text" name="">
+						<div class="choosetime">
+							<li>
+								<div class="uup"><i class="fa fa-angle-up"></i></div>
+								<div class="choose-hour">5</div>
+								<div class="ddown"><i class="fa fa-angle-down"></i></div>
+							</li>
+							:
+							<li>
+								<div class="uup"><i class="fa fa-angle-up"></i></div>
+								<div class="choose-minutes">00</div>
+								<div class="ddown"><i class="fa fa-angle-down"></i></div>
+							</li>
+							<li>
+								<div class="uup"><i class="fa fa-angle-up"></i></div>
+								<div class="choose-amorpm">PM</div>
+								<div class="ddown"><i class="fa fa-angle-down"></i></div>
+							</li>
+						</div>
+					</div>
+					<div class="center first-continue" name="" onclick="">CONTINUE</div> 
+				</div>
+				<div class="second-book">
+					<div class="second-title">Customize my massage</div>
+					<span class="center email">Choose a session</span>
+						<div class="second-choosesession">
+							<input defaultVal="Single-1 therapist" value="Single - 1 therapist" class="second-choossession" type="text" name="">
+							<div class="choosesession-down">
+								<i class="fa fa-angle-down"></i>
+							</div>
+							<div class="choosesession-contain">
+								<li>Single - 1 therapist</li>
+								<li>Doule - 2 therapists</li>
+							</div>
+						</div>
+						
+					<span class="center email">Massage length</span>
+						<div class="second-chooselength">
+							<input defaultVal="60 minutes - $65" value="60 minutes - $65" class="second-length" type="text" name="">
+							<div class="chooselength-down">
+								<i class="fa fa-angle-down"></i>
+							</div>
+							<div class="chooselength-contain">
+								<li>60 minutes - $65</li>
+								<li>90 minutes - $75</li>
+								<li>120 minutes - $95</li>
+							</div>
+							<div class="chooselength-contain">
+								<li>60 minutes - $130</li>
+								<li>90 minutes - $150</li>
+								<li>120minutes - $190</li>
+							</div>
+						</div>
+						
+					<span class="center email">Massage type</span>
+						<div class="second-choosetype">
+							<input defaultVal="Swedish Massage" value="Swedish Massage"
+							class="second-type" type="text" name="">
+							<div class="choosetype-down">
+								<i class="fa fa-angle-down"></i>
+							</div>
+							<div class="choosetype-contain">
+								<li>Swedish Massage</li>
+								<li>Deep Tissue Massage</li>
+								<li>Sports  Massage</li>
+								<li>Pre-natal Massage</li>
+								<li>Couples Massage</li>
+								<li>Thai Massage</li>
+								<li>Relaxing Massage</li>
+								<li>At Work Massage</li>
+							</div>
+						</div>
+						
+					<div class="second-choosetherapist">Choose your therapist</div>
+					<div class="second-available">Available:</div>
+					<div class="second-list">
+						<div class="list-row">
+							<li class="worker">
+								<img class="worker-img" src="../img/Rose.png">
+								<ul >Rose</ul>
+							</li>
+							<li class="worker">
+								<img src="../img/Anne.png">
+								<ul >Anne</ul>
+							</li>
+							<li class="worker">
+								<img src="../img/Carol.png">
+								<ul >Carol</ul>
+							</li>
+							<li class="worker">
+								<img src="../img/Josie.png">
+								<ul >Josie</ul>
+							</li>
+						</div>
+						<div class="list-row">
+							<li class="worker">
+								<img src="../img/Lara.png">
+								<ul >Lara</ul>
+							</li>
+							<li class="worker">
+								<img src="../img/Sarah.png">
+								<ul >Sarah</ul>
+							</li>
+							<li class="worker">
+								<img src="../img/Molly.png">
+								<ul >Molly</ul>
+							</li>
+							<li class="worker">
+								<img src="../img/Kylie.png">
+								<ul >Kylie</ul>
+							</li>
+						</div>
+					</div>
+					<div class="second-info">
+						<div class="second-info-name"></div>
+						<div class="second-info-intro"></div>
+					</div>
+					<div class="center second-continue" name="" onclick="">CONTINUE</div>
+					<div class="agree">
+						<ul>By clicking "Continue" above,you agreeing to</ul>
+						<ul> our Terms of Service agreement</ul>
+					</div> 
+					<div class="back">
+							<i class="fa fa-angle-left" style="margin-right: 10px;"></i>
+							Back
+					</div>
+				</div>
+				<div class="third-book">
+					<div class="third-title">
+						<li>Create your account or sign in</li>
+						<li>to your existing account to continue</li>
+					</div>
+					<div class="choose-inorup">
+						<form class="inorup">
+							<div class="new">
+						        <input type="radio" name="neworold" value="new" checked="checked" />
+						        <label for="female">I'm a new customer</label>
+						    </div>
+						    <div class="old">
+						    	<input type="radio" name="neworold" value="old">
+						        <label for="male">I have an account</label>
+						     </div>
+						</form> 
+					</div>
+					<div class="center third-facebook">Sign in with Facebook</div>
+					<div class="third-line">
+						<div class="third-line-or">or</div>
+					</div>
+					<div class="signup" name="user">
+						<span class="signup-name">First Name</span>
+							<input type="text" name="user[first-name]">
+						<span class="signup-name">Last Name</span>
+							<input type="text" name="user[last-name]">
+						<span class="signup-email" >Email address</span>
+							<input type="text" name="user[email]" onchange="check(this.name,this.value)" >
+						<span class="signup-number">Mobile number</span>
+							<input type="text" name="user[phone]" onchange="check(this.name,this.value)">
+						<span class="signup-password">Choose a password</span>
+							<input type="password" name="user[password]" onchange="check(this.name,this.value)">
+						<button class="center signup-but third-continue1" type="text"
+						name="signup" value="signup" onclick="showUser(this.name,this.value)" >CONTINUE</button> 
+						<div class="center signup-info">
+							<span class="">By signing up, I agree to Mobile Massages' </span>
+							<span class="">Terms Service and Privacy Policy</span>
+						</div>
+						<div class="back">
+							<i class="fa fa-angle-left" style="margin-right: 10px;"></i>
+							Back
+						</div>
+					</div>
+					<div class="center login-info">
+						<span class="center email">Email address</span>
+						<input class="email-in" type="text" name="login-email">
+						<span class="center email password">Password</span>
+						<input class="password-in" type="password" name="login-password">
+						<!-- <div class="center facebook">login with Facebook</div> -->
+						<div class="center forget">Forget Password?</div>
+						<button class="center signin " type="text" onclick="showUser(this.name,this.value)" name="login" value="login">CONYINUE</button> 
+						<div class="back">
+							<i class="fa fa-angle-left" style="margin-right: 10px;"></i>
+							Back
+						</div>
+					</div>
+				</div>
+				<div class="four-book">
+			        <div class="word-top">Location</div>
+					<div class="fth1-form">
+						<div class="fth1-info">Street address</div>
+						<input class="fth1-form-size" type="text" name="street1">
+					</div>
+					<div class="fth1-form">
+						<div>Street address2</div>
+						<input class="fth1-form-size" type="text" name="street2">
+					</div>
+					<div class="fth1-form-pcode">
+					    <div class="province-contain">
+							<div>State/Province</div>
+							<input class="province" type="text" name="province">
+						</div>
+						<div class="code-contain">
+							<div class="">Zip/Post code</div>
+							<input class="code" type="text" name="code">
+					    </div>
+					</div>
+					<div class="fth1-info-park">
+						<div>Parking istructions</div>
+						<textarea class="park-instruct" type="text" name="parking"></textarea>
+					</div>
+					<div class="book-but">BOOK MY MASSAGE</div>
+					<div class="back">
+							<i class="fa fa-angle-left" style="margin-right: 10px;"></i>
+							Back
+					</div>
+			    </div>
+			    <div class="four-book2">
+			        <div class="four-book2-word-top">Check out</div>
+					<div class="four-info-form">
+						<div class="four-info">Name on card</div>
+						<input type="text" value="Name on card" onfocus="if(value=='Name on card')value=''" onblur="if(!value)value='Name on card'" class="">
+					</div>
+					<div class="four-info-form">
+						<div>Credit card number</div>
+						<input type="text" value="Apt/Floor/Sulte" onfocus="if(value=='Apt/Floor/Sulte')value=''" onblur="if(!value)value='Apt/Floor/Sulte'" class="four-form-size">
+					</div>
+					<div class="four-two-form">
+					    <div class="four-info-sform-l">
+							<div>Expiration date</div>
+							<input type="text" value="MM/YY" onfocus="if(value=='MM/YY')value=''" onblur="if(!value)value='MM/YY'" class="">
+						</div>
+						<div class="four-info-sform-r">
+							<div class="four-word-ch">Security code</div>
+							<input class="four-form-smasize" type="" name="">
+					    </div>
+					</div>
+					<div class="four-info-form">
+						<div>Billing Zip/Postal code</div>
+						<input class="" type="" name="">
+					</div>
+					<div class="four-two-form">
+					    <div class="four-info-sform-l">
+							<div>Gift/Summary</div>
+							<input class="" type="" name="">
+						</div>
+						<div class="four-info-sform-r" style="width: 50%">
+							<div class="four-word-ch"></div>
+							<ul class="apply" type="" name="">APPLY</ul>
+					    </div>
+					</div>
+					<div class="four-info-form four-ord">
+						<div>Order Summary</div>
+					</div>
+					<div class="finally-order">
+						<li class="">05/29/2017  5:15 PM</li>
+						<li class="">Single Session</li>
+						<li class="">Swedish/60 min/Either Therapist</li>
+						<li class="">Xytftd street,000000</li>
+					</div>
+					<div class="four-two-word">
+					    <div class="total">Total</div>
+					    <div class="allcost">£99</div>
+					</div>
+					<div class="four-book2-button">BOOK MY MASSAGE</div>
+					<div class="back">
+							<i class="fa fa-angle-left" style="margin-right: 10px;"></i>
+							Back
+					</div>
+			    </div>
+			    <div class="book-complete">
+			    	<span class="main-thanks">THANK YOU!</span>
+					<i class="fa fa-check fa-4x size"></i>
+					<p class="main-check">SUCCESFUL BOOKING</p>
+					<p class="main-details">We have sent your booking
+						<br>
+					details to<span class="youremail">johndoe@gmail.com</span> </p>
+			    </div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer-word">
+				Mobile
+				<span>massages</span>
+			</div>
+			<div class="footer-smallword">@2017 MOBILE MASSAGES</div>
+			<div class="footer-smallword">TERMS & CONDITIONS</div>
+			<div class="footer-smallword">PRIVACY POLICY</div>
+		</div>
+	</body>
+	<!-- <script type="text/javascript" src="../js/hd.js"></script> -->
+</html>
